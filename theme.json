@@ -155,67 +155,67 @@
 					"slug": "tiny"
 				},
 				{
+					"fluid": {
+						"max": "1rem",
+						"min": "0.875rem"
+					},
 					"name": "xSmall",
 					"size": "1rem",
-					"slug": "x-small",
-					 "fluid": {
-						"min": "0.875rem",
-						"max": "1rem"
-					}
+					"slug": "x-small"
 				},
 				{
+					"fluid": {
+						"max": "1.25rem",
+						"min": "1rem"
+					},
 					"name": "Small",
 					"size": "1.25rem",
-					"slug": "small",
-					"fluid": {
-						"min": "1rem",
-						"max": "1.25rem"
-					}
+					"slug": "small"
 				},
 				{
+					"fluid": {
+						"max": "1.5rem",
+						"min": "1.25rem"
+					},
 					"name": "Medium",
 					"size": "1.5rem",
-					"slug": "medium",
-					"fluid": {
-						"min": "1.25rem",
-						"max": "1.5rem"
-					}
+					"slug": "medium"
 				},
 				{
+					"fluid": {
+						"max": "2rem",
+						"min": "1.375rem"
+					},
 					"name": "Large",
 					"size": "2rem",
-					"slug": "large",
-					"fluid": {
-						"min": "1.375rem",
-						"max": "2rem"
-					}
+					"slug": "large"
 				},
 				{
+					"fluid": {
+						"max": "2.5rem",
+						"min": "1.5rem"
+					},
 					"name": "X-Large",
 					"size": "2.5rem",
-					"slug": "x-large",
-					"fluid": {
-						"min": "1.5rem",
-						"max": "2.5rem"
-					}
+					"slug": "x-large"
 				},
 				{
+					"fluid": {
+						"max": "3rem",
+						"min": "2rem"
+					},
 					"name": "Huge",
 					"size": "3rem",
-					"slug": "huge",
-					"fluid": {
-						"min": "2rem",
-						"max": "3rem"
-					}
+					"slug": "huge"
 				},
 				{
+					"fluid": {
+						"max": "3.75rem",
+						"min": "3rem"
+					},
 					"name": "Gigantic",
 					"size": "3.75rem",
-					"slug": "gigantic",
-					"fluid": {
-						"min": "3rem",
-						"max": "3.75rem"
-					}
+					"slug": "gigantic"
 				}
 			],
 			"writingMode": true
@@ -669,9 +669,9 @@
 				":focus-visible": {
 					"outline": {
 						"color": "var(--wp--preset--color--focus-ring)",
+						"offset": "0.125rem",
 						"style": "solid",
-						"width": "0.125rem",
-						"offset": "0.125rem"
+						"width": "0.125rem"
 					}
 				},
 				":hover": {
@@ -771,13 +771,13 @@
 			},
 			"link": {
 				":focus-visible": {
-          			"outline": {
-					 "color": "var(--wp--preset--color--focus-ring)",
-					 "style": "solid",
-					 "width": "0.125rem",
-         			 "offset": "0.125rem"
+					"outline": {
+						"color": "var(--wp--preset--color--focus-ring)",
+						"offset": "0.125rem",
+						"style": "solid",
+						"width": "0.125rem"
 					}
-       			},
+				},
 				":hover": {
 					"color": {
 						"text": "var(--wp--preset--color--accent-3)"
